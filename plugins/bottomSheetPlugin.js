@@ -13,6 +13,10 @@ const BottomSheetPlugin = {
 
     bottomSheetPlugin.show = function (args) {
       console.log("show bottom sheet");
+      console.log(
+        "show bottom sheet function",
+        localVueInstance.prototype.$showBottomSheet
+      );
       console.log("component", args.component);
 
       return localVueInstance.prototype
