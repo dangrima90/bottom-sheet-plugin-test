@@ -26,7 +26,7 @@ import BottomSheetContent from "./BottomSheetContent.vue";
 export default {
   methods: {
     showBottomSheet() {
-      this.$myBottomSheet.show({
+      this.$_showBottomSheet({
         component: BottomSheetContent,
       });
     },
